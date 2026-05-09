@@ -4,7 +4,6 @@
 
 ![Platform Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Made for India](https://img.shields.io/badge/made%20for-NSE%20%7C%20BSE-orange)
 
 ---
@@ -23,8 +22,6 @@
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 - [Disclaimer](#disclaimer)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -39,7 +36,7 @@ The bot then simulates connection to brokers like **Zerodha**, **Groww**, **Upst
 ---
 
 ## Live Demo
-
+https://ai-powered-personalized-algo-tradin.vercel.app/
 
 ```
 
@@ -219,7 +216,9 @@ Notifications/Modals    → showToast(), showModal() utilities
 ---
 
 ## Screenshots
+<img width="953" height="436" alt="image" src="https://github.com/user-attachments/assets/a120ce23-508a-48b6-a3b4-e09f1c8d6f6d" />
 
+<img width="958" height="433" alt="image" src="https://github.com/user-attachments/assets/da6839c3-2287-4ece-b9c5-352b86358b7e" />
 
 
 
