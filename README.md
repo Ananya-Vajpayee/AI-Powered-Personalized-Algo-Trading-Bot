@@ -214,9 +214,11 @@ Notifications/Modals    → showToast(), showModal() utilities
 ```
 
 ---
-
+```
 ## Screenshots
-<img width="953" height="436" alt="image" src="https://github.com/user-attachments/assets/a120ce23-508a-48b6-a3b4-e09f1c8d6f6d" />
+
+<img width="953" height="436" alt="Screenshot 2026-05-09 203821" src="https://github.com/user-attachments/assets/a3439ff0-66ce-4cf8-b192-e2f45ae1a83c" />
+
 
 <img width="958" height="433" alt="image" src="https://github.com/user-attachments/assets/da6839c3-2287-4ece-b9c5-352b86358b7e" />
 
