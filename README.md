@@ -51,15 +51,19 @@ fetched via Yahoo Finance.
 
 | Metric              | Value      |
 |---------------------|-----------|
-| Win Rate            | [YOUR NEW VALUE]%     |
-| Strategy Return     | [YOUR NEW VALUE]%     |
-| Buy & Hold Return   | [YOUR NEW VALUE]%     |
-| Avg Trade P&L       | [YOUR NEW VALUE]%     |
-| Sharpe Ratio        | [YOUR NEW VALUE]      |
-| Max Drawdown        | [YOUR NEW VALUE]%     |
-| Total Trades        | [YOUR NEW VALUE]      |
+| Win Rate            | 69.2%     |
+| Strategy Return     | 34.81%    |
+| Buy & Hold Return   | 169.88%   |
+| Avg Trade P&L       | 1.28%     |
+| Sharpe Ratio        | 4.13      |
+| Max Drawdown        | -17.86%   |
+| Total Trades        | 26        |
 
 ![Backtest Results](backtest/backtest_results.png)
+
+*Note: The RSI mean-reversion strategy underperformed buy-and-hold over this period — 
+2015–2024 was a strong bull market for Nifty 50, where buy-and-hold naturally outperforms 
+mean-reversion strategies. This highlights the importance of regime-aware strategy selection.*
 
 ## Live Demo
 https://ai-powered-personalized-algo-tradin.vercel.app/
