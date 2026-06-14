@@ -41,6 +41,25 @@ The `backtest/` folder contains a Jupyter notebook that validates the RSI-based
 momentum strategy (RSI < 30 + Price > EMA20 entry, RSI > 70 exit) against
 2 years of real Nifty 50 historical data via Yahoo Finance.
 
+## 📊 Strategy Backtest Results
+
+A Jupyter notebook (`backtest/rsi_strategy_backtest.ipynb`) validates an RSI-based 
+mean-reversion strategy against real Nifty 50 historical data (490 trading days, 
+Jan 2023 – Dec 2024) fetched via Yahoo Finance.
+
+**Strategy:** Buy when RSI < 30, Sell when RSI > 70
+
+| Metric          | Value      |
+|------------------|-----------|
+| Win Rate         | 75.0%     |
+| Total Return     | 6.96%     |
+| Avg Trade P&L    | 1.72%     |
+| Sharpe Ratio     | 11.88     |
+| Max Drawdown     | -0.35%    |
+| Total Trades     | 4         |
+
+![Backtest Results](backtest/backtest_results.png)
+
 ## Live Demo
 https://ai-powered-personalized-algo-tradin.vercel.app/
 
