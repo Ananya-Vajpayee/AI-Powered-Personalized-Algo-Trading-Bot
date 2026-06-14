@@ -35,6 +35,36 @@ The bot then simulates connection to brokers like **Zerodha**, **Groww**, **Upst
 
 ---
 
+## 📊 Strategy Backtesting
+
+The `backtest/` folder contains a Jupyter notebook that validates the RSI-based
+momentum strategy (RSI < 30 + Price > EMA20 entry, RSI > 70 exit) against
+2 years of real Nifty 50 historical data via Yahoo Finance.
+
+## 📊 Strategy Backtest Results
+
+A Jupyter notebook (`backtest/rsi_strategy_backtest.ipynb`) validates an RSI-based 
+mean-reversion strategy against real Nifty 50 historical data (2015–2024, ~2400 trading days) 
+fetched via Yahoo Finance.
+
+**Strategy:** Buy when RSI < 30, Sell when RSI > 70
+
+| Metric              | Value      |
+|---------------------|-----------|
+| Win Rate            | 69.2%     |
+| Strategy Return     | 34.81%    |
+| Buy & Hold Return   | 169.88%   |
+| Avg Trade P&L       | 1.28%     |
+| Sharpe Ratio        | 4.13      |
+| Max Drawdown        | -17.86%   |
+| Total Trades        | 26        |
+
+![Backtest Results](backtest/backtest_results.png)
+
+*Note: The RSI mean-reversion strategy underperformed buy-and-hold over this period — 
+2015–2024 was a strong bull market for Nifty 50, where buy-and-hold naturally outperforms 
+mean-reversion strategies. This highlights the importance of regime-aware strategy selection.*
+
 ## Live Demo
 https://ai-powered-personalized-algo-tradin.vercel.app/
 
