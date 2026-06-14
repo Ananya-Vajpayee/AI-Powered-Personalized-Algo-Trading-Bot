@@ -35,6 +35,12 @@ The bot then simulates connection to brokers like **Zerodha**, **Groww**, **Upst
 
 ---
 
+## 📊 Strategy Backtesting
+
+The `backtest/` folder contains a Jupyter notebook that validates the RSI-based
+momentum strategy (RSI < 30 + Price > EMA20 entry, RSI > 70 exit) against
+2 years of real Nifty 50 historical data via Yahoo Finance.
+
 ## Live Demo
 https://ai-powered-personalized-algo-tradin.vercel.app/
 
